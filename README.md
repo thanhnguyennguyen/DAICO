@@ -10,5 +10,5 @@
 - DAICO world ![contribution](https://i.imgur.com/0Ez4WQR.jpg) 
 - Manager creates requests ![request](https://i.imgur.com/WTlv10I.jpg)
 - Contributors votes requests ![vote](https://i.imgur.com/HmfXnSa.jpg)
-# Copyright © 2018 Nguyen Nguyen
+
 
