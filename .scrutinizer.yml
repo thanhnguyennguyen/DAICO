@@ -1,15 +1,14 @@
-checks:
-    python:
-        code_rating: true
-        duplicate_code: true
 filter:
-    paths: ["contracts/*"]
+    paths: ["contracts/DAICO/*", "test/*"]
 build:
-    nodes:
-        analysis:
-            tests:
-                override:
-                    - py-scrutinizer-run
+  nodes:
+    analysis:
+      tests:
+        override:
+          # Add the respective Scrutinizer analysis for your language like
+          - js-scrutinizer-run
+          - py-scrutinizer-run
+          
 build_failure_conditions:
     - 'elements.rating(<= D).exists'               # No classes/methods with a rating of D or worse
     - 'elements.rating(<= D).new.exists'           # No new classes/methods with a rating of D or worse
