@@ -1,18 +1,18 @@
 {
-  "name": "smart-contract-practice",
+  "name": "DAICO-factory",
   "version": "1.0.0",
-  "description": "Practicing with smart contract and Ethereum network using solidity",
-  "main": "index.js",
+  "description": "Provide solutions for DAICO",
   "scripts": {
     "test": "mocha",
     "test-coverage": "nyc --reporter=text-lcov mocha> coverage.lcov"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thanhnguyennguyen/smart-contract-practice.git"
+    "url": "git+https://github.com/thanhnguyennguyen/DAICO.git"
   },
   "keywords": [
     "solidity",
+    "DAICO",
     "smart",
     "contract",
     "NguyenNguyen"
@@ -20,9 +20,9 @@
   "author": "NguyenNguyen (nguyenbk92@gmail.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thanhnguyennguyen/smart-contract-practice/issues"
+    "url": "https://github.com/thanhnguyennguyen/DAICO/issues"
   },
-  "homepage": "https://github.com/thanhnguyennguyen/smart-contract-practice#readme",
+  "homepage": "https://github.com/thanhnguyennguyen/DAICO#readme",
   "dependencies": {
     "node-gyp": "^3.7.0",
     "solc": "^0.4.24",
