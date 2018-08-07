@@ -1,6 +1,8 @@
 checks:
-    - javascript: true
-    - python: true
+    javascript: true
+    python:
+        code_rating: true
+        duplicate_code: true
 build:
     nodes:
         analysis:
