@@ -17,9 +17,6 @@ const provider = new HDWalletProvider(
  );
 
 const web3 = new Web3(provider);
-//const message = 'NguyenNguyen is deploying the first smart contract';
-// cannot use await outside a function
-//
 const deploy = async() => {
   try {
     const accounts = await web3.eth.getAccounts();
